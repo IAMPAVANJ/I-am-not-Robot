@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I am not robot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getRandomImage()">
+    <div class="main">
+        <div class="wrapper">
+            <div class="heading">
+                <label ><h1>Count The similar Images</h1></label>
+                <p id="s0"></p>
+            </div>
+        </div>
+    
+        <div class="d2" id="div 1">
+            <span class="item" id="r1"></span>
+            <span class="item" id="r2"></span>
+            <span class="item" id="r3"></span><br>
+            <span class="item" id="r4"></span>
+            <span class="item" id="r5"></span>
+            <span class="item" id="r6"></span><br>
+            <span class="item" id="r7"></span>
+            <span class="item" id="r8"></span>
+            <span class="item" id="r9"></span><br>
+            <label class="label">How many Image are same?</label>
+            <br><br>    
+            <input type="number" name="" id="t1" placeholder="Enter your Answer">
+            <button onclick="check()"><b>Verify</b></button>
+            <br>
+            <p id="instruction"></p>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
